@@ -1,0 +1,33 @@
+{
+	"name": "Java Enviroment",
+	// "build": {
+	// 	"dockerfile": "./Dockerfile"
+	// },
+	// "forwardPorts": [8080],
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "vscode",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/docker-java-home",
+  		"workbench.colorTheme": "Atom One Dark",
+  		"workbench.iconTheme": "material-icon-theme",
+		"window.zoomLevel": 1,
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		}
+	},
+	"extensions": [
+		"vscjava.vscode-java-pack",
+		"ms-azuretools.vscode-docker",
+		"pivotal.vscode-spring-boot",
+		"redhat.vscode-xml",
+		"ckolkman.vscode-postgres",
+		"pkief.material-icon-theme",
+		"akamud.vscode-theme-onedark"
+	],
+	"remoteUser": "vscode"
+}
