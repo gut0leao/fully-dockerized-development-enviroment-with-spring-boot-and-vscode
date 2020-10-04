@@ -1,2 +1,3 @@
-# fully-dockerized-development-enviroment-with-spring-boot-and-vscode
-A fully dockerized development enviroment with Spring Boot + VSCode
+# Fully Dockerized Development Enviroment with Spring Boot + VSCode
+
+descrpiption goes here...
